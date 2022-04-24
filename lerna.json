@@ -1,0 +1,4 @@
+{
+  "packages": ["frontend","backend_sanity"],
+  "version": "1.0.0"
+}
