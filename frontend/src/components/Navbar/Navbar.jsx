@@ -11,7 +11,6 @@ const Navbar = () => {
   return (
     <nav className='app__navbar'>
         <div className='app__navbar-logo'>
-          Sumair Develops
             <img src={images.logo} alt="logo" />
         </div>
         <ul className='app__navbar-links'>
