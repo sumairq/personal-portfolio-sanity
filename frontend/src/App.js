@@ -7,7 +7,7 @@ import "./App.scss";
 
 const App = () => {
 	useEffect(() => {
-		ReactGA.initialize("G-KDKNWQGP8W");
+		ReactGA.initialize("UA-164058116-1");
 		ReactGA.pageview(window.location.pathname + window.location.search);
 	}, []);
 	return (
