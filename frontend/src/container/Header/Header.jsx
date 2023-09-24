@@ -16,7 +16,7 @@ const Header = () => {
 				>
 					Hi There ! <span>I'm Sumair</span>
 				</motion.h1>
-				<h1 className='title-text'>Full Stack Developer</h1>
+				<h1 className='title-text'>Front End Developer</h1>
 				<h1 className='mission-text'>
 					I design and develop expereinces that make people's lives{" "}
 					<span className='bold'>simpler</span>.

@@ -97,6 +97,21 @@
 	}
 }
 
+.bold-medium {
+	font-size: 0.7rem;
+	font-weight: 700;
+	color: var(--black-color);
+	text-align: left;
+
+	@media screen and (min-width: 2000px) {
+		font-size: 1.7rem;
+	}
+
+	@media screen and (max-width: 450px) {
+		font-size: 0.7rem;
+	}
+}
+
 .app__social {
 	display: flex;
 	justify-content: flex-end;
