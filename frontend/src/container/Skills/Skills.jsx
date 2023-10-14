@@ -25,8 +25,6 @@ const [skills, setSkills] = useState([]);
        setSkills(data);
      })
   }, [])
-  console.log('skills',skills);
-  console.log('experience', experience);
 
   return (
     <>
