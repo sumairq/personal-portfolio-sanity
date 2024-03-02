@@ -1,6 +1,7 @@
 #home {
 	position: relative;
-	background: url("../../assets/bg-img.jpg");
+	// background: url("../../assets/bg-img.jpg");
+	background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
 	background-size: cover;
 	background-repeat: repeat;
 	background-position: center;
@@ -14,6 +15,16 @@
 	}
 }
 
+.app__header {
+	 border-bottom: 10px solid orangered;
+	 border-left: 10px solid orangered ;
+	// border-style: dotted;
+	padding: 100px;
+
+
+}
+
+
 .title-text {
 	border-bottom: 3px solid;
 	border-left: 3px solid;
@@ -21,6 +32,57 @@
 	padding-left: 2px;
 	padding-bottom: 2px;
 	width: fit-content;
+	border: 2px solid black;
+}
+.small-name {
+	text-align: center;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-stretch: ultra-expanded;
+	word-spacing: 5px;
+	letter-spacing: 5px;
+	margin-bottom: 3rem;
+	span {
+		background-color: black;
+		color: white;
+		padding-top: 3px;
+		padding-bottom: 3px;
+
+		padding-left: 5px ;
+		padding-right: 3px ;
+		border-radius: 10px;
+
+	}
+
+}
+
+.head-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-head {
+	display: flex;
+	font-size: 5rem;
+	flex-direction: column;
+	line-height: 76px;
+
+	.dev-span {
+		color: orangered;
+		font-size: 7rem;
+	}
+}
+
+
+
+.head-image img{
+   width: 300px;
+   border-radius: 50%;
+   margin-left: 300px;
+   border: 6px solid whitesmoke	;
+   padding: 5px;
+   z-index: 99;
+
 }
 
 .mission-text {
@@ -61,9 +123,9 @@
 .greet-text {
 	padding-bottom: 30px;
 	font-size: 60px;
-	span {
-		color: var(--secondary-color);
-	}
+	// span {
+	// 	color: var(--secondary-color);
+	// }
 }
 
 .mission-text {
