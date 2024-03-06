@@ -1,11 +1,19 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 import AppWrap from '../../wrapper/AppWrap';
 
 import './Header.scss';
 
 const Header = () => {
+
+	const [text] = useTypewriter({
+		words: ['Developer', 'Designer', 'Engineer','<Coder/>'],
+		loop: {},
+	})
+
+	console.log(text)
   return (
     <div className="app__header">
       <div h-text>
@@ -21,7 +29,8 @@ const Header = () => {
           <span>Designer</span>
           <span>Problem Solver</span>
           <span>Collaborator</span>
-          <span className='dev-span'>Developer</span>
+          <span className='dev-span'>{text}<Cursor/></span>
+		  
 			</div>
 			<div className='head-image'>
 				<img src='avatar.jpg' alt='avatar'></img>
