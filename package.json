@@ -5,7 +5,6 @@
   "devDependencies": {
     "lerna": "^4.0.0"
   },
-  
   "scripts": {
     "build": "lerna run build --parallel",
     "dev": "lerna run dev --parallel",
@@ -13,7 +12,6 @@
     "start": "lerna run start",
     "test": "lerna run test",
     "new-version": "lerna version --conventional-commits --yes",
-    "diff":"lerna diff"
+    "diff": "lerna diff"
   }
-  
 }

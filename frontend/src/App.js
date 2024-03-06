@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import ReactGA from "react-ga";
 
-import { About, Footer, Header, Skills, Testimonial, Work } from "./container";
+import { About, Footer, Header, NestedSkills, Skills, Testimonial, Work } from "./container";
 import { Navbar } from "./components";
 import "./App.scss";
 
@@ -17,6 +17,7 @@ const App = () => {
 			<About />
 			<Work />
 			<Skills />
+			<NestedSkills/>
 			<Testimonial />
 			<Footer />
 		</div>
