@@ -106,7 +106,7 @@ const About = () => {
             key={about.title + index}
           >
             <img src={about.image} alt={about.title} />
-            <h2 className="bold-text" style={{ marginTop: 20 }}>
+            <h2 className="bold-text" style={{ marginTop: 20}}>
               {about.title}
             </h2>
             <p className="p-text" style={{ marginTop: 10 }}>

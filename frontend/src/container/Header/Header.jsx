@@ -9,7 +9,7 @@ import './Header.scss';
 const Header = () => {
 
 	const [text] = useTypewriter({
-		words: ['Developer', 'Designer', 'Engineer','<Coder/>'],
+		words: ['Developer','Engineer','<Coder/>'],
 		loop: {},
 	})
 

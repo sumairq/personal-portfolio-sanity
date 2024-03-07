@@ -5,6 +5,13 @@
 }
 
 
+.contact-img {
+    position: absolute;
+    left: 150px;
+    width: 300px;
+}
+
+
 .app__footer-cards {
     width: 60%;
     display: flex;
@@ -12,6 +19,8 @@
     align-items: center;
     flex-wrap: wrap-reverse;
     margin: 4rem 2rem 2rem;
+    background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+    border-radius: 100px;
 
     .app__footer-card {
         min-width: 290px;
@@ -28,6 +37,7 @@
 
         transition: all 0.3s ease-in-out;
 
+  
         img {
             width: 40px;
             height: 40px;
