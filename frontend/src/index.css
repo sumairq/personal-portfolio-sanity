@@ -6,14 +6,14 @@
 	--font-secondary: "Roboto Slab", serif;
 
 	--primary-color: #c8d7ea;
-	--secondary-color: #337bae;
+	--secondary-color: #4481eb;
 	--black-color: #030303;
 	--lightGray-color: #e4e4e4;
 	--gray-color: #6b7688;
 	--brown-color: #46364a;
-	--white-color: #ffffff;
+	--white-color: whitesmoke;
 }
-
+/* background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%); */
 * {
 	box-sizing: border-box;
 	padding: 0;

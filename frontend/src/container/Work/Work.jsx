@@ -111,7 +111,7 @@ const Work = () => {
 							</motion.div>
 						</div>
 						<div className='app__work-content app__flex'>
-							<h4 className='bold-text'>{work.title}</h4>
+							<h4>{work.title}</h4>
 							<p
 								className='p-text'
 								style={{ marginTop: 10 }}
