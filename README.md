@@ -1,4 +1,5 @@
 # Sumair's Portfolio
+![Screenshot](https://github.com/sumairq/personal-portfolio-sanity/assets/60618877/92f445dc-e079-402c-830c-fa91b98a9157)
 
 ## Table of Contents
 
